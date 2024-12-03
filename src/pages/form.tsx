@@ -76,7 +76,10 @@ export default function Form() {
             <option value="TO">TO</option>
           </select>
         </div>
-        <button className="mt-6 rounded-lg bg-purple-600 py-3 text-white">
+        <button
+          type="button"
+          className="mt-6 rounded-lg bg-purple-600 py-3 text-white"
+        >
           Continuar
         </button>
       </form>
