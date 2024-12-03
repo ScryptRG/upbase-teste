@@ -1,11 +1,12 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
+import { Link } from "react-router-dom";
 
 export default function Form() {
   return (
     <main className="relative mx-auto min-h-screen w-[25rem] bg-white p-6 text-black">
-      <a href="/">
+      <Link to={"/"}>
         <Icon icon="mdi:arrow-left" width={35} className="text-purple-600" />
-      </a>
+      </Link>
       <h1 className="mt-8 text-xl">
         Para começarmos, precisamos de alguns dados
       </h1>
