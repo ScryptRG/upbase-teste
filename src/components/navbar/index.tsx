@@ -2,8 +2,8 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 export default function Navbar() {
   return (
-    <nav className="absolute bottom-0 left-0 px-8 pt-6 pb-10 w-full bg-purple-600 rounded-tl-2xl rounded-tr-2xl">
-      <ul className="flex items-center justify-between text-black !text-opacity-40">
+    <nav className="absolute bottom-0 left-0 w-full rounded-tl-2xl rounded-tr-2xl bg-purple-600 px-8 pb-10 pt-6">
+      <ul className="flex items-center justify-between text-black !text-opacity-50">
         <li>
           <a className="text-white" href="#">
             <Icon icon="cil:building" width={35} />

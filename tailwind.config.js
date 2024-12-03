@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "purple-600": "#7B2CBF",
+        black: "#10002B",
       },
     },
   },
